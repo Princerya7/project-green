@@ -34,7 +34,7 @@
     color: #000;
 }
 
-.b button {
+.bu button {
     background-color: #0d3b33;
     color: white;
     padding: 10px 22px;
@@ -45,6 +45,60 @@
     transition: 0.3s;
 }
 
-.b button:hover {
+.bd button {
+    background-color: white;
+    color: #0d3b33;
+    padding: 10px 22px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.bu button:hover {
     background-color: #165248;
+}
+
+.hero{
+    background-color: #165248;
+    width: 75vw;
+    border-radius: 25px;
+    margin-left: 175px;
+    margin-right: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr img{
+    margin: 15px;
+    border-radius: 25px;
+    width: 30vw;
+}
+
+.hl{
+    padding-top: 155px;
+    padding-left: 85px;
+}
+
+.u{
+    color: white;
+}
+
+.hl h1{
+    color: white;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.d{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wht{
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
